@@ -1,0 +1,69 @@
+# Logs & Debugging
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node Modules & Dependencies
+node_modules/
+.pnpm-store/
+
+# Build & Output Directories
+dist/
+dist-ssr/
+build/
+.output/
+.next/
+.vinxi/
+.tanstack/
+.nitro/
+out/
+
+# Environment & Secret Files (CRÍTICO: Nunca subir credenciales)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+.dev
+.dev.vars
+*.env
+
+# Cache & Local Files
+.cache/
+.eslintcache
+.stylelintcache
+*.local
+*.tsbuildinfo
+
+# Wrangler / Cloudflare
+.wrangler/
+
+# Test & Coverage
+coverage/
+.nyc_output/
+
+# Editor & IDE Directories
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
